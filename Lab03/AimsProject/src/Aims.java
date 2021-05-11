@@ -3,8 +3,6 @@ public class Aims {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		
 		Order anOrder = new Order();
 		
 		DigitalVideoDisc dvd1 = new DigitalVideoDisc("The Lion King");
@@ -28,9 +26,10 @@ public class Aims {
 		dvd3.setLength(90);
 		anOrder.addDigitalVideoDisc(dvd3);
 		
-		System.out.println(anOrder.getQtyOrdered());
-		System.out.print("Total cost is: " );
+		// anOrder.removeDigitalVideoDisc(dvd2);
+		System.out.print("Total cost is: ");
 		System.out.println(anOrder.totalCost());
+
 	}
 
 }
